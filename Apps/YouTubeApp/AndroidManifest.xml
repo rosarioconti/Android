@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ytdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16"/>
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+
+  <application android:label="@string/youtube_demo">
+     <activity
+        android:label="@string/videolist_demo_name"
+        android:name="com.ytdemo.VideoListActivity">
+      <intent-filter >
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="@string/minVersion" android:value="8"/>
+      <meta-data android:name="@string/isLaunchableActivity" android:value="false"/>
+    </activity>
+    
+     <activity
+        android:label="Fullscreen"
+        android:name="com.ytdemo.FullscreenActivity">
+    </activity>
+
+    <activity
+        android:label="@string/fullscreen_name"
+        android:name="com.ytdemo.FullscreenDemoActivity"
+        android:screenOrientation="sensor"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:theme="@style/BlackNoTitleBarTheme">
+      <meta-data android:name="@string/minVersion" android:value="8"/>
+      <meta-data android:name="@string/isLaunchableActivity" android:value="true"/>
+    </activity>
+
+
+  </application>
+
+</manifest>
