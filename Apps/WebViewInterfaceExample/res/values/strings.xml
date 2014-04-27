@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebViewInterfaceExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="desc_app">Testing interface with the webview</string>
+	<string name="btn_assets">Read From Assets</string>
+	<string name="btn_ext">Read From SDCard</string>
+</resources>
