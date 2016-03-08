@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">QRGenerator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="send_button">Send Money</string>
+    <string name="receive_button">Request Money</string>
+    <string name="balance_label">Balance</string>
+    <string name="amount_placeholder">5 BTC</string>
+    <string name="scan_label">Scan QR Code</string>
+    <string name="msg_default_status">Scan QR Code</string>
+    <string name="manual_button_label">Or Enter Manually</string>
+    <string name="blank_label"></string>
+
+
+    <string name="contents_text">Plain text</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+
+    <string name="pay_request_address_label">Address: </string>
+    <string name="pay_request_amount_label">Amount: </string>
+    <string name="pay_request_received_from">Payment Request From: </string>
+    <string name="pay_request">Hello,\n\nYou\'ve received a bitcoin payment request.  Please send funds to the following address.</string>
+    <string name="pay_request_thank_you">Thank You!</string>
+
+    <string name="send_money_payment_successful">Payment successful!</string>
+    <string name="send_money_ok">Ok</string>
+    <string name="send_money_insufficient_funds">The payment exceeds your current balance. \n\n</string>
+    <string name="send_money_xfer_pending">Please wait for your pending transactions to be confirmed, or add additional funds to your wallet using the \'Receive Money\' button on the home screen.</string>
+    <string name="send_money_try_funding">Try funding your bitcoin wallet by using the \'Receive Money\' button on the home screen.</string>
+    <string name="send_money_invalid_address">Invalid address, please try again.</string>
+    <string name="send_money_fail">Sorry we couldn\'t send that.  Please check your values and try again.</string>
+
+    <string name="amount_label">Amount</string>
+    <string name="address_label">Pay To Address</string>
+    <string name="memo_label">Memo (optional)</string>
+    <string name="send_money_button">Send</string>
+
+    <string name="connecting_to_peers">Connecting to peers...</string>
+    <string name="syncing_with_network">Syncing with network...</string>
+    <string name="run_in_background">Run in background</string>
+
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+</resources>
